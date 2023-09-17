@@ -1,0 +1,49 @@
+body {
+    font-family: 'Avenir Next', Arial, sans-serif;
+    background-color: #DFF2E1; /* Light green background color */
+    color: #333;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.center-wrapper {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 700px;
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+}
+
+.display-4 {
+    font-weight: 300;
+    color: #2c3e50;
+}
+
+p.lead {
+    font-size: 24px;
+    color: #7f8c8d;
+    border-bottom: 2px solid #B4DFC1; /* Light green touch to the separator */
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #B4DFC1; /* Light green */
+    border: none;
+    padding: 10px 30px;
+    font-weight: 500;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #91C09F; /* Slightly darker shade of light green for the hover effect */
+}
